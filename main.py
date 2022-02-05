@@ -3,7 +3,7 @@ from tomato_bush import TomatoBush
 from gardener import Gardener
 
 user_name = input("Enter gardener's name ")
-number = int(input())
+number = int(input("Enter number of tomatoes: "))
 
 if __name__ == '__main__':
     Gardener.knowledge_base()
