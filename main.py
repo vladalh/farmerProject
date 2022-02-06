@@ -1,9 +1,15 @@
-from tomato import Tomato
+#from tomato import Tomato
 from tomato_bush import TomatoBush
 from gardener import Gardener
 
+
 user_name = input("Enter gardener's name ")
 number = int(input("Enter number of tomatoes: "))
+
+def main():
+    global user_name
+    global number
+
 
 if __name__ == '__main__':
     Gardener.knowledge_base()
